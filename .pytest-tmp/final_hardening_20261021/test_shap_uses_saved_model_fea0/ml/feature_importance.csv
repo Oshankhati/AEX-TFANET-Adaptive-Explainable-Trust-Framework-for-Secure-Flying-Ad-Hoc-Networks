@@ -1,0 +1,13 @@
+feature,random_forest_impurity_importance
+forwarding_ratio,0.5116279069767442
+packets_dropped,0.4883720930232558
+delivery_ratio,0.0
+packets_forwarded,0.0
+neighbor_count,0.0
+mobility_mps,0.0
+link_stability,0.0
+direct_trust,0.0
+indirect_trust,0.0
+historical_trust,0.0
+final_trust,0.0
+trust_observations,0.0

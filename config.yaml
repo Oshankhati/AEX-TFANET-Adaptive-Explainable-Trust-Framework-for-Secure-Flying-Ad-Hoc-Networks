@@ -1,0 +1,98 @@
+project:
+  name: AEX-TFANET
+  version: 0.2.0
+  description: Adaptive Explainable Trust Framework for Secure Flying Ad Hoc Networks
+
+simulation:
+  # source: sample | ns3 | python_fanet
+  # sample        = DEMO/SAMPLE DATA (Python pipeline only)
+  # ns3           = NS-3 C++ simulation (requires NS-3; not available on this host as of Phase 0)
+  # python_fanet  = simplified discrete-event FANET model (Phase 2+)
+  source: python_fanet
+  num_uavs: 10
+  duration_s: 100.0
+  seed: 42
+  # 200 m produced more relay opportunities while retaining ~95% mean PDR
+  # in the 42-61 topology sensitivity study; see docs/simulation.md.
+  communication_range_m: 200.0
+  area_z_m: 80.0
+  packet_interval_s: 1.0
+  packet_size_bytes: 512
+  time_step_s: 1.0
+  area_x_m: 500.0
+  area_y_m: 500.0
+  ns3:
+    install_path: null
+    scratch_name: fanet_simulation
+
+mobility:
+  model: random_waypoint
+  min_speed_mps: 5.0
+  max_speed_mps: 20.0
+  pause_time_s: 1.0
+
+trust:
+  direct_weight: 0.60
+  indirect_weight: 0.40
+  history_weight: 0.30
+  update_rate: 0.20
+  decay_rate: 0.25
+  recovery_rate: 0.10
+  prior_success: 1.0
+  prior_failure: 1.0
+  min_recommendations: 1
+  history_lambda: 0.30
+  indirect_enabled: true
+  min_recommender_trust: 0.0
+  minimum_trust: 0.0
+  maximum_trust: 1.0
+
+trust_thresholds:
+  highly_trusted: 0.80
+  trusted: 0.60
+  suspicious: 0.40
+  malicious: 0.00
+
+routing:
+  # baseline = shortest hop path (Phase 9)
+  # aex_tfanet = trust-aware scoring (Phase 9)
+  mode: aex_tfanet
+  trust_weight: 0.40
+  link_weight: 0.20
+  delivery_weight: 0.20
+  delay_weight: 0.10
+  hop_weight: 0.10
+
+detection:
+  suspicious_threshold: 0.25
+  malicious_threshold: 0.65
+  min_observations: 5
+  window_s: 10.0
+  drop_weight: 0.60
+  trust_weight: 0.25
+  forwarding_weight: 0.10
+  instability_weight: 0.05
+
+ml:
+  enabled: false
+  model: random_forest
+  test_size: 0.20
+  random_state: 42
+
+xai:
+  enabled: false
+  shap: true
+  lime: false # LIME is not implemented; SHAP is the supported explainer.
+
+experiments:
+  output_directory: results
+  source: python_fanet
+
+logging:
+  level: INFO
+  format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+
+paths:
+  sample_data: data/sample
+  processed_data: data/processed
+  ns3_results: simulation/ns3/results/raw

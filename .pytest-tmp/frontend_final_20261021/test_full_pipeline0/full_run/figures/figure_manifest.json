@@ -1,0 +1,7 @@
+{
+  "figures": [
+    "figures\\trust_over_time.png",
+    "figures\\latest_trust_by_uav.png",
+    "figures\\detection_confusion_matrix.png"
+  ]
+}

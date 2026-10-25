@@ -1,0 +1,5 @@
+name: sybil
+description: Planned. Not implemented.
+attack:
+  type: sybil
+  implemented: false

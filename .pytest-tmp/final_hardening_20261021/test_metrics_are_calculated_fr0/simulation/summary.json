@@ -1,0 +1,1 @@
+{"backend": "Simplified Python FANET Model \u2014 NOT NS-3", "simulation_duration_s": 10, "packet_size_bytes": 512, "total_packets_generated": 10, "total_packets_delivered": 8, "total_packets_dropped": 2, "malicious_nodes": [2], "routing_mode": "aex_tfanet", "route_changes": 1}

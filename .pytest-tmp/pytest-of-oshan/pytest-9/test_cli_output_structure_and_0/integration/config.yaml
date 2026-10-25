@@ -1,0 +1,15 @@
+simulation:
+  source: python_fanet
+  num_uavs: 10
+  duration_s: 100.0
+  time_step_s: 1.0
+  seed: 42
+routing:
+  mode: baseline
+experiments:
+  source: python_fanet
+attack:
+  enabled: false
+  type: packet_drop
+  malicious_nodes: []
+  drop_probability: 0.0

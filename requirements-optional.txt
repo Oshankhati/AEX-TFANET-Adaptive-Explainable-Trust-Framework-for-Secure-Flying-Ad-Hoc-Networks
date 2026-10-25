@@ -1,0 +1,4 @@
+# Optional XAI and dashboard dependencies. Install in an isolated virtual environment
+# to avoid changing dependencies used by unrelated projects in a shared Python runtime.
+shap>=0.44
+streamlit>=1.30

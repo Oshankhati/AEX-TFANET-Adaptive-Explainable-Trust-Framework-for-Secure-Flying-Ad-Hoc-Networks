@@ -1,0 +1,7 @@
+name: blackhole
+description: Deterministic malicious relay drops all packets it is asked to forward; source and destination endpoints are unaffected.
+attack:
+  enabled: true
+  type: blackhole
+  malicious_nodes: [7]
+  implemented: true

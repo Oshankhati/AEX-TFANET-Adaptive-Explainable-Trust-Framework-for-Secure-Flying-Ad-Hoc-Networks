@@ -1,0 +1,69 @@
+{
+  "python_version": "3.13.2",
+  "python_executable": "C:\\Python313\\python.exe",
+  "platform": "win32",
+  "project_root": "D:\\AEX-TFANET",
+  "package_version": "0.2.0",
+  "implementation_phase": "15-dashboard",
+  "ns3_available": false,
+  "ns3_details": "NS-3 was not found on PATH or at simulation.ns3.install_path. WSL is available; NS-3 may be installed inside WSL (not probed).",
+  "gxx_available": true,
+  "gxx_path": "D:\\MinGW\\bin\\g++.exe",
+  "packages": [
+    {
+      "name": "numpy",
+      "available": true,
+      "version": "2.1.3"
+    },
+    {
+      "name": "pandas",
+      "available": true,
+      "version": "2.3.0"
+    },
+    {
+      "name": "sklearn",
+      "available": true,
+      "version": "1.5.2"
+    },
+    {
+      "name": "yaml",
+      "available": true,
+      "version": "6.0.2"
+    },
+    {
+      "name": "matplotlib",
+      "available": true,
+      "version": "3.10.0"
+    },
+    {
+      "name": "networkx",
+      "available": true,
+      "version": "3.5"
+    },
+    {
+      "name": "joblib",
+      "available": true,
+      "version": "1.5.1"
+    },
+    {
+      "name": "shap",
+      "available": true,
+      "version": "0.54.1"
+    },
+    {
+      "name": "lime",
+      "available": false,
+      "version": null
+    },
+    {
+      "name": "streamlit",
+      "available": true,
+      "version": "1.66.0"
+    },
+    {
+      "name": "pytest",
+      "available": true,
+      "version": "9.1.1"
+    }
+  ]
+}

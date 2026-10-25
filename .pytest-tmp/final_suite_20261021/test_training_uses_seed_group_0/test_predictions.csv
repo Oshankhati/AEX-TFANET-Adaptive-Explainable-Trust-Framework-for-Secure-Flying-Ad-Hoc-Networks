@@ -1,0 +1,5 @@
+seed,scenario,node_id,timestamp,label_malicious,prediction_malicious,probability_malicious
+2,train,1,1.0,0,0,0.09
+2,train,2,1.0,1,1,0.91
+5,train,1,1.0,0,0,0.09
+5,train,2,1.0,1,1,0.91

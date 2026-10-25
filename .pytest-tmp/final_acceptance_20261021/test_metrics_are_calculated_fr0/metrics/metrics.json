@@ -1,0 +1,23 @@
+{
+  "provenance": "Simplified Python FANET Model \u2014 NOT NS-3",
+  "packets_generated": 10,
+  "packets_delivered": 8,
+  "packets_dropped": 2,
+  "packet_delivery_ratio": 0.8,
+  "packet_loss_ratio": 0.2,
+  "delivered_application_bytes": 4096,
+  "throughput_mbps": 0.0032768000000000003,
+  "average_end_to_end_delay_s": null,
+  "delay_status": "Not evaluated. The simulator does not model per-hop transmission or queueing delay.",
+  "routing_mode": "aex_tfanet",
+  "routed_packets": 2,
+  "route_unavailable_count": 0,
+  "mean_route_hops": 1.5,
+  "route_changes": 1,
+  "attacked_intermediate_exposure_count": 1,
+  "attacked_intermediate_exposure_rate": 0.5,
+  "routing_overhead": null,
+  "routing_overhead_status": "Not evaluated. Control and signaling packet costs are not represented by the simulator.",
+  "detection": null,
+  "trust": null
+}

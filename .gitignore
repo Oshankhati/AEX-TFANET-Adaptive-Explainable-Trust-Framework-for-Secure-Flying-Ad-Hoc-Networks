@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Experiment outputs (keep directory, ignore generated runs)
+results/*
+!results/.gitkeep
+results/csv/*
+!results/csv/.gitkeep
+results/figures/*
+!results/figures/.gitkeep
+results/reports/*
+!results/reports/.gitkeep
+results/logs/*
+!results/logs/.gitkeep
+experiments/results/*
+!experiments/results/.gitkeep
+
+# NS-3 build artefacts
+simulation/ns3/build/
+simulation/ns3/cmake-cache/
+*.o
+*.exe
+
+# Models
+*.joblib
+*.pkl
+!data/sample/**
+
+# Logs
+*.log

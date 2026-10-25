@@ -1,0 +1,13 @@
+feature,value,shap_value_for_malicious_class
+packets_dropped,6.0,-0.75
+delivery_ratio,0.0,0.2
+forwarding_ratio,0.0,0.0
+packets_forwarded,0.0,0.0
+neighbor_count,0.0,0.0
+mobility_mps,0.0,0.0
+link_stability,0.0,0.0
+direct_trust,0.0,0.0
+indirect_trust,0.0,0.0
+historical_trust,0.0,0.0
+final_trust,0.0,0.0
+trust_observations,0.0,0.0

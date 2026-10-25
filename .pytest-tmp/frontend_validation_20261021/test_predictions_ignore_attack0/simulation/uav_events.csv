@@ -1,0 +1,9 @@
+timestamp,uav_id,position_x,position_y,mobility_mps,neighbors,packets_generated,packets_sent,packets_forwarded,packets_received,packets_dropped,forwarding_ratio,delivery_ratio,link_stability
+0.0,1,1,1,0,1,1,1,0,0,0,1.0,1,0.8
+0.0,2,1,1,0,1,0,0,0,0,0,0.0,1,0.8
+1.0,1,1,1,0,1,1,1,0,0,0,1.0,1,0.8
+1.0,2,1,1,0,1,0,0,0,0,0,0.0,1,0.8
+2.0,1,1,1,0,1,1,1,0,0,0,1.0,1,0.8
+2.0,2,1,1,0,1,0,0,0,0,0,0.0,1,0.8
+3.0,1,1,1,0,1,1,1,0,0,0,1.0,1,0.8
+3.0,2,1,1,0,1,0,0,0,0,0,0.0,1,0.8

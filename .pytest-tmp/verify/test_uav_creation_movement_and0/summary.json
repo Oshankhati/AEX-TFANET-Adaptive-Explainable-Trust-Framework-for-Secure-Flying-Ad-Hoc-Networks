@@ -1,0 +1,18 @@
+{
+  "backend": "Simplified Python FANET Model \u2014 NOT NS-3",
+  "num_uavs": 10,
+  "simulation_duration_s": 100.0,
+  "time_step_s": 1.0,
+  "total_packets_generated": 1000,
+  "total_packets_delivered": 971,
+  "total_packets_dropped": 29,
+  "packet_delivery_ratio": 0.971,
+  "packet_loss_ratio": 0.029,
+  "average_delay_s": null,
+  "total_forwarding_events": 535,
+  "malicious_nodes": [],
+  "attack_type": null,
+  "drop_probability": 0.0,
+  "random_seed": 42,
+  "mobility_model": "random_waypoint"
+}

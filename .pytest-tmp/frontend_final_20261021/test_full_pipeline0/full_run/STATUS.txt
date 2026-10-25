@@ -1,0 +1,1 @@
+Complete single-run pipeline finished: simulation, trust, detection, route decisions, ML/XAI status, metrics, and figures.

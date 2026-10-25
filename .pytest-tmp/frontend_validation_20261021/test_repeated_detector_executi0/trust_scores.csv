@@ -1,0 +1,5 @@
+timestamp,observer_id,target_id,packets_observed,successful_forwarding,failed_forwarding,forwarding_ratio,delivery_observations,neighbor_connected,direct_trust,indirect_trust,indirect_available,indirect_recommenders,historical_trust,final_trust,classification
+0.0,1,2,1,0,1,0.0,0,True,0.5,,False,0,0.5,0.5,Suspicious
+1.0,1,2,1,1,0,1.0,1,True,0.5,,False,0,0.5,0.7,Suspicious
+2.0,1,2,1,0,1,0.0,0,True,0.5,,False,0,0.5,0.5,Suspicious
+3.0,1,2,1,1,0,1.0,1,True,0.5,,False,0,0.5,0.7,Suspicious

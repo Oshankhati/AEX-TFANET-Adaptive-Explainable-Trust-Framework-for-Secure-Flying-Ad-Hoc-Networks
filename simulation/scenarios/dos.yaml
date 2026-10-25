@@ -1,0 +1,5 @@
+name: dos
+description: Planned. Not implemented.
+attack:
+  type: dos
+  implemented: false

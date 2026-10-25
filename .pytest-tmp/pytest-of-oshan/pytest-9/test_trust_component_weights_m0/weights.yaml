@@ -1,0 +1,4 @@
+trust:
+  direct_weight: 0.5
+  indirect_weight: 0.2
+  history_weight: 0.3

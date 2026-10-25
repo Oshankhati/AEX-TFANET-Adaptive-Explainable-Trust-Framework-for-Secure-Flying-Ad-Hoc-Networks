@@ -1,0 +1,17 @@
+{
+  "shap_status": "Available; computed from the trained Random Forest on held-out test rows.",
+  "local_example": {
+    "seed": 5,
+    "scenario": "packet_drop",
+    "node_id": 2,
+    "timestamp": 10.0,
+    "ground_truth_malicious": 1,
+    "model_prediction_malicious": 1
+  },
+  "local_explanation_file": "local_shap_explanation.csv",
+  "global_importance_file": "global_shap_importance.csv",
+  "global_importance_rows": 4,
+  "global_importance_explanation_sample": 4,
+  "global_importance_sample_method": "Evenly spaced rows from the held-out seed set; deterministic sampling for bounded explanation runtime.",
+  "lime_status": "Not implemented."
+}

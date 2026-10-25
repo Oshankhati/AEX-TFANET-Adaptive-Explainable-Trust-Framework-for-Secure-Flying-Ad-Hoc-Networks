@@ -1,0 +1,15 @@
+# Deterministic blackhole: the configured malicious UAV drops every packet it
+# receives as an intermediate relay. Source and destination endpoints are not
+# treated as relays by the simulator.
+simulation:
+  source: python_fanet
+  seed: 42
+  communication_range_m: 200.0
+routing:
+  mode: baseline
+experiments:
+  source: python_fanet
+attack:
+  enabled: true
+  type: blackhole
+  malicious_nodes: [7]

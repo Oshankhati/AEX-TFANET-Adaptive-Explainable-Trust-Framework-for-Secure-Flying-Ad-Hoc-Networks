@@ -1,0 +1,17 @@
+timestamp,packet_id,source,destination,current_node,next_hop,action
+0.0,1,1,2,1,2,generated
+0.0,1,1,2,2,,dropped
+1.0,2,1,2,1,2,generated
+1.0,2,1,2,2,,dropped
+2.0,3,1,2,1,2,generated
+2.0,3,1,2,2,,dropped
+3.0,4,1,2,1,2,generated
+3.0,4,1,2,2,,received
+4.0,5,1,2,1,2,generated
+4.0,5,1,2,2,,received
+5.0,6,1,2,1,2,generated
+5.0,6,1,2,2,,received
+6.0,7,1,2,1,2,generated
+6.0,7,1,2,2,,received
+7.0,8,1,2,1,2,generated
+7.0,8,1,2,2,,received

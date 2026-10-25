@@ -1,0 +1,10 @@
+# Experiment overlay: baseline shortest-hop routing (comparison arm).
+simulation:
+  source: python_fanet
+  num_uavs: 10
+  duration_s: 100.0
+  seed: 42
+routing:
+  mode: baseline
+experiments:
+  source: python_fanet

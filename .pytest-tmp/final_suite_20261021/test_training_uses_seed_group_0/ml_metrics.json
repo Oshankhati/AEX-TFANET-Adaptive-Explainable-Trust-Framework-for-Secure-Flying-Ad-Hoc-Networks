@@ -1,0 +1,59 @@
+{
+  "accuracy": 1.0,
+  "precision_malicious": 1.0,
+  "recall_malicious": 1.0,
+  "f1_malicious": 1.0,
+  "confusion_matrix_labels_0_1": [
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "train_rows": 12,
+  "test_rows": 4,
+  "train_seeds": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7
+  ],
+  "test_seeds": [
+    2,
+    5
+  ],
+  "feature_names": [
+    "forwarding_ratio",
+    "delivery_ratio",
+    "packets_forwarded",
+    "packets_dropped",
+    "neighbor_count",
+    "mobility_mps",
+    "link_stability",
+    "direct_trust",
+    "indirect_trust",
+    "historical_trust",
+    "final_trust",
+    "trust_observations"
+  ],
+  "target": "malicious node ground-truth label, evaluation/training only",
+  "features_exclude": [
+    "attack_probability",
+    "attack_type",
+    "malicious_node_id",
+    "scenario",
+    "seed",
+    "timestamp",
+    "ground_truth_label"
+  ],
+  "split": "GroupShuffleSplit by simulation seed; all temporal frames from a seed stay in one partition.",
+  "scope": "Retrospective run snapshots; each feature row uses telemetry and trust available up to that timestamp.",
+  "model": "RandomForestClassifier(n_estimators=200, min_samples_leaf=3, class_weight=balanced_subsample)",
+  "preprocessing": "Median imputation fitted on training rows only.",
+  "random_state": 7
+}

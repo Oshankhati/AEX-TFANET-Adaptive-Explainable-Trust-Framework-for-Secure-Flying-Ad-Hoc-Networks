@@ -1,0 +1,29 @@
+{
+  "detector": "deterministic_behavioral_v1",
+  "prediction_inputs": [
+    "observed packet forwarding outcomes",
+    "causal Phase 3 trust history",
+    "forwarding ratio",
+    "link stability"
+  ],
+  "prediction_excludes_ground_truth_labels": true,
+  "row_count": 200,
+  "node_count": 10,
+  "status_counts": {
+    "INSUFFICIENT_DATA": 62,
+    "NORMAL": 138
+  },
+  "evaluation": "available",
+  "detector_config": {
+    "suspicious_threshold": 0.25,
+    "malicious_threshold": 0.65,
+    "min_observations": 5,
+    "window_s": 10.0,
+    "weights": {
+      "drop": 0.6,
+      "trust": 0.25,
+      "forwarding": 0.1,
+      "instability": 0.05
+    }
+  }
+}

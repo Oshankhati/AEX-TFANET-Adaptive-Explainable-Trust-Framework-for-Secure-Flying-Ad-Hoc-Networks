@@ -1,0 +1,51 @@
+{
+  "backend_used": "Simplified Python FANET Model \u2014 NOT NS-3",
+  "highly_trusted_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "maximum_trust": 0.9539475308035521,
+  "mean_trust": 0.7908881712775969,
+  "minimum_trust": 0.6402979740918342,
+  "node_aggregation": "mean of each observer's latest final trust for the target; does not replace relational scores",
+  "number_of_nodes": 10,
+  "number_of_relationships": 90,
+  "number_of_score_observations": 1315,
+  "source_simulation": "D:\\AEX-TFANET\\.pytest-tmp\\release_suite_20261021\\test_observed_packet_drops_red0\\attack\\simulation",
+  "suspicious_nodes": [],
+  "trust_engine_configuration": {
+    "bounds": {
+      "maximum": 1.0,
+      "minimum": 0.0
+    },
+    "decay_rate": 0.25,
+    "direct_alpha": 1.0,
+    "direct_beta": 1.0,
+    "history_lambda": 0.3,
+    "indirect_enabled": true,
+    "min_recommendations": 1,
+    "min_recommender_trust": 0.0,
+    "recovery_rate": 0.1,
+    "thresholds": {
+      "highly_trusted": 0.8,
+      "suspicious": 0.4,
+      "trusted": 0.6
+    },
+    "weights": {
+      "direct": 0.6,
+      "history": 0.3,
+      "indirect": 0.4
+    }
+  },
+  "trusted_nodes": [
+    7
+  ],
+  "untrusted_nodes": []
+}

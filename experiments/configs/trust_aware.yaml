@@ -1,0 +1,13 @@
+# Online trust-aware routing comparison arm.
+simulation:
+  source: python_fanet
+  seed: 42
+routing:
+  mode: aex_tfanet
+  trust_weight: 0.40
+  link_weight: 0.20
+  delivery_weight: 0.20
+  delay_weight: 0.10
+  hop_weight: 0.10
+experiments:
+  source: python_fanet

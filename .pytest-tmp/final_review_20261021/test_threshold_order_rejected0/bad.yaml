@@ -1,0 +1,5 @@
+trust_thresholds:
+  highly_trusted: 0.2
+  malicious: 0.0
+  suspicious: 0.4
+  trusted: 0.9

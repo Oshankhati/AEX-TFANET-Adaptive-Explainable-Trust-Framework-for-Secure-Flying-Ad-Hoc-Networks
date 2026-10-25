@@ -1,0 +1,108 @@
+{
+  "experiment_id": "full_run",
+  "simulator": "Simplified Python FANET Model \u2014 NOT NS-3",
+  "random_seed": 42,
+  "routing_mode": "baseline",
+  "attack_type": null,
+  "attack_probability": 0.0,
+  "prediction_labels_available_to_detector": false,
+  "trust_score_observations": 1335,
+  "detection": {
+    "detector": "deterministic_behavioral_v1",
+    "prediction_inputs": [
+      "observed packet forwarding outcomes",
+      "causal Phase 3 trust history",
+      "forwarding ratio",
+      "link stability"
+    ],
+    "prediction_excludes_ground_truth_labels": true,
+    "row_count": 1000,
+    "node_count": 10,
+    "status_counts": {
+      "INSUFFICIENT_DATA": 65,
+      "NORMAL": 935
+    },
+    "evaluation": "available",
+    "detector_config": {
+      "suspicious_threshold": 0.25,
+      "malicious_threshold": 0.65,
+      "min_observations": 5,
+      "window_s": 10.0,
+      "weights": {
+        "drop": 0.6,
+        "trust": 0.25,
+        "forwarding": 0.1,
+        "instability": 0.05
+      }
+    }
+  },
+  "performance_metrics": {
+    "provenance": "Simplified Python FANET Model \u2014 NOT NS-3",
+    "packets_generated": 1000,
+    "packets_delivered": 971,
+    "packets_dropped": 29,
+    "packet_delivery_ratio": 0.971,
+    "packet_loss_ratio": 0.029,
+    "delivered_application_bytes": 497152,
+    "throughput_mbps": 0.03977216,
+    "average_end_to_end_delay_s": null,
+    "delay_status": "Not evaluated. The simulator does not model per-hop transmission or queueing delay.",
+    "routing_mode": "baseline",
+    "routed_packets": 971,
+    "route_unavailable_count": 29,
+    "mean_route_hops": 1.5509783728115345,
+    "route_changes": 349,
+    "attacked_intermediate_exposure_count": 0,
+    "attacked_intermediate_exposure_rate": 0.0,
+    "routing_overhead": null,
+    "routing_overhead_status": "Not evaluated. Control and signaling packet costs are not represented by the simulator.",
+    "detection": {
+      "evaluation_unit": "node; positive prediction means any SUSPICIOUS or MALICIOUS window",
+      "node_count": 10,
+      "actual_positive_nodes": 0,
+      "predicted_positive_nodes": 0,
+      "TP": 0,
+      "TN": 10,
+      "FP": 0,
+      "FN": 0,
+      "precision": null,
+      "recall": null,
+      "F1": null,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": null,
+      "confusion_matrix": {
+        "actual_positive": {
+          "predicted_positive": 0,
+          "predicted_negative": 0
+        },
+        "actual_negative": {
+          "predicted_positive": 0,
+          "predicted_negative": 10
+        }
+      },
+      "class_counts": {
+        "actual_positive": 0,
+        "actual_negative": 10,
+        "predicted_positive": 0,
+        "predicted_negative": 10
+      },
+      "ground_truth_source": "simulation summary metadata; used only by this evaluator"
+    },
+    "trust": {
+      "number_of_score_observations": 1335,
+      "overall_final_trust_mean": 0.7953989116055185
+    }
+  },
+  "ml": {
+    "status": "Not evaluated. No trained ML model was available.",
+    "model_path": "D:\\AEX-TFANET\\.pytest-tmp\\e2e_final\\test_full_pipeline0\\missing_model.joblib"
+  },
+  "xai": {
+    "shap_status": "Not evaluated. ML model unavailable."
+  },
+  "figures": [
+    "figures\\trust_over_time.png",
+    "figures\\latest_trust_by_uav.png",
+    "figures\\detection_confusion_matrix.png"
+  ]
+}

@@ -1,0 +1,5 @@
+seed,scenario,node_id,timestamp,label_malicious,prediction_malicious,probability_malicious
+5,packet_drop,1,10.0,0,0,0.10040767565767567
+5,packet_drop,2,10.0,1,1,0.9204076756576757
+7,packet_drop,1,10.0,0,0,0.10040767565767567
+7,packet_drop,2,10.0,1,1,0.9204076756576757

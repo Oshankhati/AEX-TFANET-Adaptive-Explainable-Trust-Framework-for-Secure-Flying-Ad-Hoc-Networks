@@ -1,0 +1,201 @@
+timestamp,node_id,observations,recent_successes,recent_drops,drop_ratio,final_trust,trust_classification,forwarding_ratio,link_stability,detection_score,status,reason
+0.0,1,0,0,0,,,,1.0,0.0,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+0.0,2,1,1,0,0.0,0.6666666666666667,Trusted,0.0,0.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+0.0,3,0,0,0,,,,0.0,1.0,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+0.0,4,0,0,0,,,,0.0,0.0,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+0.0,5,1,1,0,0.0,0.6666666666666667,Trusted,1.0,0.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+0.0,6,0,0,0,,,,0.0,0.0,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+0.0,7,0,0,0,,,,0.0,0.0,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+0.0,8,0,0,0,,,,1.0,0.0,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+0.0,9,1,1,0,0.0,0.6666666666666667,Trusted,0.0,0.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+0.0,10,0,0,0,,,,0.0,0.0,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+1.0,1,2,2,0,0.0,0.75,Trusted,1.0,0.75,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+1.0,2,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+1.0,3,1,1,0,0.0,0.6666666666666667,Trusted,0.0,0.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+1.0,4,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+1.0,5,2,2,0,0.0,0.6666666666666667,Trusted,1.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+1.0,6,2,2,0,0.0,0.6666666666666667,Trusted,0.666667,0.8,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+1.0,7,0,0,0,,,,0.0,1.0,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+1.0,8,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+1.0,9,2,2,0,0.0,0.6730555555555556,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+1.0,10,0,0,0,,,,0.0,0.5,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+2.0,1,3,3,0,0.0,0.7083333333333334,Trusted,1.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+2.0,2,2,2,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+2.0,3,2,2,0,0.0,0.6730555555555556,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+2.0,4,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+2.0,5,2,2,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+2.0,6,5,5,0,0.0,0.668263888888889,Trusted,0.75,1.0,0.10793402777777775,NORMAL,trust evidence=0.332; forwarding evidence=0.250
+2.0,7,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+2.0,8,2,2,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+2.0,9,3,3,0,0.0,0.682681623931624,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+2.0,10,0,0,0,,,,0.0,1.0,,INSUFFICIENT_DATA,0 forwarding outcomes in the 10s window; need 5
+3.0,1,3,3,0,0.0,0.7083333333333334,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+3.0,2,3,3,0,0.0,0.6666666666666666,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+3.0,3,2,2,0,0.0,0.6730555555555556,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+3.0,4,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+3.0,5,2,2,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+3.0,6,7,7,0,0.0,0.6717863247863247,Trusted,0.8,1.0,0.10205341880341881,NORMAL,trust evidence=0.328; forwarding evidence=0.200
+3.0,7,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+3.0,8,2,2,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+3.0,9,4,4,0,0.0,0.6848931623931624,Trusted,0.0,1.0,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+3.0,10,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+4.0,1,7,7,0,0.0,0.7396025641025642,Trusted,0.0,1.0,0.16509935897435896,NORMAL,forwarding evidence=1.000; trust evidence=0.260
+4.0,2,3,3,0,0.0,0.6666666666666666,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+4.0,3,3,3,0,0.0,0.6832222222222223,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+4.0,4,7,7,0,0.0,0.7322435897435898,Trusted,0.714286,0.8,0.10551050256410255,NORMAL,trust evidence=0.268; forwarding evidence=0.286
+4.0,5,6,6,0,0.0,0.6759294871794872,Trusted,0.6,0.75,0.13351762820512822,NORMAL,trust evidence=0.324; forwarding evidence=0.400
+4.0,6,11,11,0,0.0,0.6783760683760685,Trusted,0.857143,1.0,0.09469168290598289,NORMAL,trust evidence=0.322; forwarding evidence=0.143
+4.0,7,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+4.0,8,2,2,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+4.0,9,5,5,0,0.0,0.6873646723646724,Trusted,0.0,1.0,0.17815883190883192,NORMAL,forwarding evidence=1.000; trust evidence=0.313
+4.0,10,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+5.0,1,9,9,0,0.0,0.7315161943319839,Trusted,0.0,1.0,0.16712095141700403,NORMAL,forwarding evidence=1.000; trust evidence=0.268
+5.0,2,5,5,0,0.0,0.6713247863247863,Trusted,0.0,1.0,0.18216880341880343,NORMAL,forwarding evidence=1.000; trust evidence=0.329
+5.0,3,3,3,0,0.0,0.6832222222222223,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+5.0,4,12,12,0,0.0,0.7398938746438747,Trusted,0.833333,1.0,0.08169323133903134,NORMAL,trust evidence=0.260; forwarding evidence=0.167
+5.0,5,10,10,0,0.0,0.6802297008547009,Trusted,0.714286,1.0,0.10851397478632477,NORMAL,trust evidence=0.320; forwarding evidence=0.286
+5.0,6,14,14,0,0.0,0.6850519433198381,Trusted,0.875,1.0,0.09123701417004047,NORMAL,trust evidence=0.315; forwarding evidence=0.125
+5.0,7,2,2,0,0.0,0.6730555555555556,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+5.0,8,2,2,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+5.0,9,6,6,0,0.0,0.6888390313390312,Trusted,0.0,1.0,0.1777902421652422,NORMAL,forwarding evidence=1.000; trust evidence=0.311
+5.0,10,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+6.0,1,10,10,0,0.0,0.7318233464843428,Trusted,0.0,1.0,0.1670441633789143,NORMAL,forwarding evidence=1.000; trust evidence=0.268
+6.0,2,7,7,0,0.0,0.6750299145299145,Trusted,0.0,1.0,0.1812425213675214,NORMAL,forwarding evidence=1.000; trust evidence=0.325
+6.0,3,3,3,0,0.0,0.6832222222222223,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+6.0,4,17,17,0,0.0,0.7254175623695708,Trusted,0.875,1.0,0.0811456094076073,NORMAL,trust evidence=0.275; forwarding evidence=0.125
+6.0,5,14,14,0,0.0,0.6862207977207977,Trusted,0.777778,1.0,0.10066700056980057,NORMAL,trust evidence=0.314; forwarding evidence=0.222
+6.0,6,16,16,0,0.0,0.6893739620788569,Trusted,0.888889,1.0,0.08876760948028577,NORMAL,trust evidence=0.311; forwarding evidence=0.111
+6.0,7,3,3,0,0.0,0.682681623931624,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+6.0,8,3,3,0,0.0,0.6666666666666666,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+6.0,9,7,7,0,0.0,0.6911851851851852,Trusted,0.0,1.0,0.1772037037037037,NORMAL,forwarding evidence=1.000; trust evidence=0.309
+6.0,10,1,1,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,1 forwarding outcomes in the 10s window; need 5
+7.0,1,11,11,0,0.0,0.732376160806656,Trusted,0.0,0.8,0.176905959798336,NORMAL,forwarding evidence=1.000; trust evidence=0.268
+7.0,2,9,9,0,0.0,0.6793305555555555,Trusted,0.0,1.0,0.18016736111111112,NORMAL,forwarding evidence=1.000; trust evidence=0.321
+7.0,3,4,4,0,0.0,0.695457264957265,Trusted,0.0,0.666667,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+7.0,4,22,22,0,0.0,0.7289326546264138,Trusted,0.904762,1.0,0.07729063634339656,NORMAL,trust evidence=0.271; forwarding evidence=0.095
+7.0,5,19,19,0,0.0,0.6959524541226747,Trusted,0.846154,1.0,0.09139648646933132,NORMAL,trust evidence=0.304; forwarding evidence=0.154
+7.0,6,17,17,0,0.0,0.6913900459949408,Trusted,0.888889,0.8,0.09826358850126479,NORMAL,trust evidence=0.309; forwarding evidence=0.111
+7.0,7,4,4,0,0.0,0.6848931623931624,Trusted,0.0,1.0,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+7.0,8,3,3,0,0.0,0.6666666666666666,Trusted,0.0,1.0,,INSUFFICIENT_DATA,3 forwarding outcomes in the 10s window; need 5
+7.0,9,9,9,0,0.0,0.6944827126577127,Trusted,0.0,0.666667,0.19304597183557184,NORMAL,forwarding evidence=1.000; trust evidence=0.306
+7.0,10,2,2,0,0.0,0.6666666666666667,Trusted,0.0,1.0,,INSUFFICIENT_DATA,2 forwarding outcomes in the 10s window; need 5
+8.0,1,15,15,0,0.0,0.7381012012215313,Trusted,0.5,0.833333,0.12380804969461717,NORMAL,trust evidence=0.262; forwarding evidence=0.500
+8.0,2,9,9,0,0.0,0.6793305555555555,Trusted,0.0,1.0,0.18016736111111112,NORMAL,forwarding evidence=1.000; trust evidence=0.321
+8.0,3,4,4,0,0.0,0.695457264957265,Trusted,0.0,1.0,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+8.0,4,23,23,0,0.0,0.7297818466108998,Trusted,0.904762,1.0,0.07707833834727504,NORMAL,trust evidence=0.270; forwarding evidence=0.095
+8.0,5,24,24,0,0.0,0.7244343214106155,Trusted,0.866667,0.571429,0.10365326964734614,NORMAL,trust evidence=0.276; instability evidence=0.429
+8.0,6,17,17,0,0.0,0.6913900459949408,Trusted,0.888889,0.8,0.09826358850126479,NORMAL,trust evidence=0.309; forwarding evidence=0.111
+8.0,7,4,4,0,0.0,0.6848931623931624,Trusted,0.0,1.0,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+8.0,8,4,4,0,0.0,0.6681410256410256,Trusted,0.0,1.0,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+8.0,9,9,9,0,0.0,0.6944827126577127,Trusted,0.0,0.666667,0.19304597183557184,NORMAL,forwarding evidence=1.000; trust evidence=0.306
+8.0,10,4,4,0,0.0,0.6766880341880341,Trusted,0.0,1.0,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+9.0,1,18,18,0,0.0,0.7401140217343518,Trusted,0.8,1.0,0.08497149456641204,NORMAL,trust evidence=0.260; forwarding evidence=0.200
+9.0,2,11,11,0,0.0,0.6860034188034189,Trusted,0.333333,1.0,0.14516584529914528,NORMAL,trust evidence=0.314; forwarding evidence=0.667
+9.0,3,6,6,0,0.0,0.6989957264957265,Trusted,0.0,1.0,0.17525106837606838,NORMAL,forwarding evidence=1.000; trust evidence=0.301
+9.0,4,23,23,0,0.0,0.7297818466108998,Trusted,0.904762,1.0,0.07707833834727504,NORMAL,trust evidence=0.270; forwarding evidence=0.095
+9.0,5,31,31,0,0.0,0.7250903578508752,Trusted,0.9,0.75,0.0912274105372812,NORMAL,trust evidence=0.275; instability evidence=0.250
+9.0,6,17,17,0,0.0,0.6913900459949408,Trusted,0.888889,1.0,0.0882635885012648,NORMAL,trust evidence=0.309; forwarding evidence=0.111
+9.0,7,4,4,0,0.0,0.6848931623931624,Trusted,0.0,0.666667,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+9.0,8,6,6,0,0.0,0.6710769230769231,Trusted,0.0,1.0,0.18223076923076922,NORMAL,forwarding evidence=1.000; trust evidence=0.329
+9.0,9,12,12,0,0.0,0.7171492561158145,Trusted,0.0,1.0,0.17071268597104639,NORMAL,forwarding evidence=1.000; trust evidence=0.283
+9.0,10,4,4,0,0.0,0.6766880341880341,Trusted,0.0,0.8,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+10.0,1,21,21,0,0.0,0.7436677664062544,Trusted,0.8,1.0,0.08408305839843638,NORMAL,trust evidence=0.256; forwarding evidence=0.200
+10.0,2,12,12,0,0.0,0.6898858426473812,Trusted,0.333333,0.666667,0.1608618893381547,NORMAL,trust evidence=0.310; forwarding evidence=0.667
+10.0,3,6,6,0,0.0,0.6989957264957265,Trusted,0.0,1.0,0.17525106837606838,NORMAL,forwarding evidence=1.000; trust evidence=0.301
+10.0,4,24,24,0,0.0,0.730108929808453,Trusted,0.904762,1.0,0.07699656754788675,NORMAL,trust evidence=0.270; forwarding evidence=0.095
+10.0,5,34,34,0,0.0,0.7279129660951655,Trusted,0.913043,0.857143,0.08386030847620861,NORMAL,trust evidence=0.272; forwarding evidence=0.087
+10.0,6,18,18,0,0.0,0.6939147378716914,Trusted,0.888889,1.0,0.08763241553207714,NORMAL,trust evidence=0.306; forwarding evidence=0.111
+10.0,7,4,4,0,0.0,0.6848931623931624,Trusted,0.0,1.0,,INSUFFICIENT_DATA,4 forwarding outcomes in the 10s window; need 5
+10.0,8,9,9,0,0.0,0.680686741961742,Trusted,0.5,1.0,0.1298283145095645,NORMAL,trust evidence=0.319; forwarding evidence=0.500
+10.0,9,12,12,0,0.0,0.7171492561158145,Trusted,0.0,1.0,0.17071268597104639,NORMAL,forwarding evidence=1.000; trust evidence=0.283
+10.0,10,7,7,0,0.0,0.6905478830185235,Trusted,0.0,1.0,0.17736302924536912,NORMAL,forwarding evidence=1.000; trust evidence=0.309
+11.0,1,24,24,0,0.0,0.7446647425588905,Trusted,0.857143,1.0,0.07811951436027738,NORMAL,trust evidence=0.255; forwarding evidence=0.143
+11.0,2,13,13,0,0.0,0.6945285965702007,Trusted,0.333333,1.0,0.14303455085744982,NORMAL,trust evidence=0.305; forwarding evidence=0.667
+11.0,3,8,8,0,0.0,0.7040199023199023,Trusted,0.0,1.0,0.17399502442002443,NORMAL,forwarding evidence=1.000; trust evidence=0.296
+11.0,4,32,32,0,0.0,0.7563341636931226,Trusted,0.928571,0.833333,0.07639270907671936,NORMAL,trust evidence=0.244; instability evidence=0.167
+11.0,5,34,34,0,0.0,0.7299173317560774,Trusted,0.913043,1.0,0.07621636706098064,NORMAL,trust evidence=0.270; forwarding evidence=0.087
+11.0,6,18,18,0,0.0,0.6939147378716914,Trusted,0.888889,1.0,0.08763241553207714,NORMAL,trust evidence=0.306; forwarding evidence=0.111
+11.0,7,6,6,0,0.0,0.6892970085470085,Trusted,0.0,1.0,0.17767574786324788,NORMAL,forwarding evidence=1.000; trust evidence=0.311
+11.0,8,15,15,0,0.0,0.7261221993284493,Trusted,0.8,0.75,0.10096945016788766,NORMAL,trust evidence=0.274; forwarding evidence=0.200
+11.0,9,11,11,0,0.0,0.7171492561158145,Trusted,0.0,0.75,0.1832126859710464,NORMAL,forwarding evidence=1.000; trust evidence=0.283
+11.0,10,8,8,0,0.0,0.6926792932749338,Trusted,0.0,0.833333,0.18516352668126654,NORMAL,forwarding evidence=1.000; trust evidence=0.307
+12.0,1,25,25,0,0.0,0.7476880984577251,Trusted,0.888889,1.0,0.07418907538556872,NORMAL,trust evidence=0.252; forwarding evidence=0.111
+12.0,2,14,14,0,0.0,0.6992104131902162,Trusted,0.333333,1.0,0.14186409670244599,NORMAL,trust evidence=0.301; forwarding evidence=0.667
+12.0,3,8,8,0,0.0,0.7093801770451771,Trusted,0.0,1.0,0.17265495573870573,NORMAL,forwarding evidence=1.000; trust evidence=0.291
+12.0,4,37,37,0,0.0,0.7638504171488907,Trusted,0.941176,1.0,0.06491979571277733,NORMAL,trust evidence=0.236; forwarding evidence=0.059
+12.0,5,35,35,0,0.0,0.7313348621875596,Trusted,0.913043,1.0,0.0758619844531101,NORMAL,trust evidence=0.269; forwarding evidence=0.087
+12.0,6,17,17,0,0.0,0.6964711208246982,Trusted,0.888889,1.0,0.08699331979382545,NORMAL,trust evidence=0.304; forwarding evidence=0.111
+12.0,7,10,10,0,0.0,0.69537297008547,Trusted,0.0,1.0,0.1761567574786325,NORMAL,forwarding evidence=1.000; trust evidence=0.305
+12.0,8,20,20,0,0.0,0.7335648275335775,Trusted,0.875,1.0,0.07910879311660561,NORMAL,trust evidence=0.266; forwarding evidence=0.125
+12.0,9,10,10,0,0.0,0.7171492561158145,Trusted,0.0,1.0,0.17071268597104639,NORMAL,forwarding evidence=1.000; trust evidence=0.283
+12.0,10,8,8,0,0.0,0.6926792932749338,Trusted,0.0,1.0,0.17683017668126655,NORMAL,forwarding evidence=1.000; trust evidence=0.307
+13.0,1,27,27,0,0.0,0.7521556217097277,Trusted,0.916667,1.0,0.07029439457256807,NORMAL,trust evidence=0.248; forwarding evidence=0.083
+13.0,2,14,14,0,0.0,0.7038489861824179,Trusted,0.333333,1.0,0.14070445345439553,NORMAL,trust evidence=0.296; forwarding evidence=0.667
+13.0,3,10,10,0,0.0,0.7154076445776446,Trusted,0.0,1.0,0.17114808885558885,NORMAL,forwarding evidence=1.000; trust evidence=0.285
+13.0,4,41,41,0,0.0,0.7678378716993257,Trusted,0.945946,1.0,0.06344593207516858,NORMAL,trust evidence=0.232; forwarding evidence=0.054
+13.0,5,37,37,0,0.0,0.7328686023082632,Trusted,0.913043,1.0,0.0754785494229342,NORMAL,trust evidence=0.267; forwarding evidence=0.087
+13.0,6,15,15,0,0.0,0.6990590959270626,Trusted,0.888889,1.0,0.08634632601823435,NORMAL,trust evidence=0.301; forwarding evidence=0.111
+13.0,7,10,10,0,0.0,0.7023836538461539,Trusted,0.0,1.0,0.17440408653846154,NORMAL,forwarding evidence=1.000; trust evidence=0.298
+13.0,8,21,21,0,0.0,0.7379616794316795,Trusted,0.888889,1.0,0.07662068014208014,NORMAL,trust evidence=0.262; forwarding evidence=0.111
+13.0,9,10,10,0,0.0,0.7147019517575514,Trusted,0.0,1.0,0.17132451206061217,NORMAL,forwarding evidence=1.000; trust evidence=0.285
+13.0,10,8,8,0,0.0,0.6926792932749338,Trusted,0.0,1.0,0.17683017668126655,NORMAL,forwarding evidence=1.000; trust evidence=0.307
+14.0,1,28,28,0,0.0,0.7538222934130244,Trusted,0.923077,1.0,0.06923672664674389,NORMAL,trust evidence=0.246; forwarding evidence=0.077
+14.0,2,14,14,0,0.0,0.7076659480342616,Trusted,0.333333,1.0,0.13975021299143459,NORMAL,trust evidence=0.292; forwarding evidence=0.667
+14.0,3,10,10,0,0.0,0.7154076445776446,Trusted,0.0,1.0,0.17114808885558885,NORMAL,forwarding evidence=1.000; trust evidence=0.285
+14.0,4,47,47,0,0.0,0.7757291762893974,Trusted,0.95122,1.0,0.060945705927650654,NORMAL,trust evidence=0.224; forwarding evidence=0.049
+14.0,5,39,39,0,0.0,0.7332034790265294,Trusted,0.913043,0.833333,0.08372818024336764,NORMAL,trust evidence=0.267; forwarding evidence=0.087
+14.0,6,13,13,0,0.0,0.6990590959270626,Trusted,0.888889,0.833333,0.09467967601823435,NORMAL,trust evidence=0.301; forwarding evidence=0.111
+14.0,7,10,10,0,0.0,0.7023836538461539,Trusted,0.0,1.0,0.17440408653846154,NORMAL,forwarding evidence=1.000; trust evidence=0.298
+14.0,8,24,24,0,0.0,0.7463482639513265,Trusted,0.904762,0.6,0.0929367340121684,NORMAL,trust evidence=0.254; instability evidence=0.400
+14.0,9,11,11,0,0.0,0.7169133267988825,Trusted,0.0,1.0,0.17077166830027937,NORMAL,forwarding evidence=1.000; trust evidence=0.283
+14.0,10,10,10,0,0.0,0.6965222419928825,Trusted,0.0,1.0,0.17586943950177938,NORMAL,forwarding evidence=1.000; trust evidence=0.303
+15.0,1,24,24,0,0.0,0.7538222934130244,Trusted,0.923077,1.0,0.06923672664674389,NORMAL,trust evidence=0.246; forwarding evidence=0.077
+15.0,2,17,17,0,0.0,0.7168551598333996,Trusted,0.333333,1.0,0.1374529100416501,NORMAL,trust evidence=0.283; forwarding evidence=0.667
+15.0,3,10,10,0,0.0,0.7231969705294705,Trusted,0.0,0.75,0.1817007573676324,NORMAL,forwarding evidence=1.000; trust evidence=0.277
+15.0,4,43,43,0,0.0,0.7788784584776227,Trusted,0.953488,1.0,0.05993158538059432,NORMAL,trust evidence=0.221; forwarding evidence=0.047
+15.0,5,36,36,0,0.0,0.7340730876324444,Trusted,0.913043,0.833333,0.0835107780918889,NORMAL,trust evidence=0.266; forwarding evidence=0.087
+15.0,6,12,12,0,0.0,0.7161884146853131,Trusted,0.9,1.0,0.08095289632867171,NORMAL,trust evidence=0.284; forwarding evidence=0.100
+15.0,7,11,11,0,0.0,0.7092643356643357,Trusted,0.0,1.0,0.1726839160839161,NORMAL,forwarding evidence=1.000; trust evidence=0.291
+15.0,8,28,28,0,0.0,0.751291379023754,Trusted,0.92,0.8,0.0801771552440615,NORMAL,trust evidence=0.249; instability evidence=0.200
+15.0,9,11,11,0,0.0,0.7193260872918985,Trusted,0.0,1.0,0.17016847817702538,NORMAL,forwarding evidence=1.000; trust evidence=0.281
+15.0,10,11,11,0,0.0,0.6995542187219762,Trusted,0.0,0.857143,0.18225429531950596,NORMAL,forwarding evidence=1.000; trust evidence=0.300
+16.0,1,23,23,0,0.0,0.7557471497070473,Trusted,0.928571,1.0,0.06820611257323818,NORMAL,trust evidence=0.244; forwarding evidence=0.071
+16.0,2,15,15,0,0.0,0.7168551598333996,Trusted,0.333333,1.0,0.1374529100416501,NORMAL,trust evidence=0.283; forwarding evidence=0.667
+16.0,3,11,11,0,0.0,0.7296271156676657,Trusted,0.0,1.0,0.16759322108308358,NORMAL,forwarding evidence=1.000; trust evidence=0.270
+16.0,4,41,41,0,0.0,0.7820617386946913,Trusted,0.955556,1.0,0.05892896532632717,NORMAL,trust evidence=0.218; forwarding evidence=0.044
+16.0,5,34,34,0,0.0,0.7318559089298706,Trusted,0.913043,1.0,0.07573172276753234,NORMAL,trust evidence=0.268; forwarding evidence=0.087
+16.0,6,9,9,0,0.0,0.7161884146853131,Trusted,0.9,1.0,0.08095289632867171,NORMAL,trust evidence=0.284; forwarding evidence=0.100
+16.0,7,10,10,0,0.0,0.7092643356643357,Trusted,0.0,1.0,0.1726839160839161,NORMAL,forwarding evidence=1.000; trust evidence=0.291
+16.0,8,30,30,0,0.0,0.7588006717282717,Trusted,0.923077,1.0,0.06799213206793207,NORMAL,trust evidence=0.241; forwarding evidence=0.077
+16.0,9,14,14,0,0.0,0.7244104828085914,Trusted,0.0,0.75,0.18139737929785216,NORMAL,forwarding evidence=1.000; trust evidence=0.276
+16.0,10,12,12,0,0.0,0.7015772956450532,Trusted,0.0,0.857143,0.1817485260887367,NORMAL,forwarding evidence=1.000; trust evidence=0.298
+17.0,1,24,24,0,0.0,0.7583991367213105,Trusted,0.933333,0.857143,0.07420976581967237,NORMAL,trust evidence=0.242; instability evidence=0.143
+17.0,2,15,15,0,0.0,0.726294396413764,Trusted,0.5,0.666667,0.13509305089655899,NORMAL,trust evidence=0.274; forwarding evidence=0.500
+17.0,3,11,11,0,0.0,0.7296271156676657,Trusted,0.0,1.0,0.16759322108308358,NORMAL,forwarding evidence=1.000; trust evidence=0.270
+17.0,4,41,41,0,0.0,0.7901300136257791,Trusted,0.958333,0.857143,0.06377704659355524,NORMAL,trust evidence=0.210; instability evidence=0.143
+17.0,5,33,33,0,0.0,0.7336556354869372,Trusted,0.913043,1.0,0.07528179112826569,NORMAL,trust evidence=0.266; forwarding evidence=0.087
+17.0,6,7,7,0,0.0,0.7161884146853131,Trusted,0.9,1.0,0.08095289632867171,NORMAL,trust evidence=0.284; forwarding evidence=0.100
+17.0,7,10,10,0,0.0,0.71596130506993,Trusted,0.0,1.0,0.1710096737325175,NORMAL,forwarding evidence=1.000; trust evidence=0.284
+17.0,8,30,30,0,0.0,0.754364181480455,Trusted,0.925926,0.833333,0.07714970462988624,NORMAL,trust evidence=0.246; instability evidence=0.167
+17.0,9,13,13,0,0.0,0.7244104828085914,Trusted,0.0,1.0,0.16889737929785215,NORMAL,forwarding evidence=1.000; trust evidence=0.276
+17.0,10,14,14,0,0.0,0.7078096438876597,Trusted,0.0,1.0,0.1730475890280851,NORMAL,forwarding evidence=1.000; trust evidence=0.292
+18.0,1,27,27,0,0.0,0.7578800988083104,Trusted,0.947368,1.0,0.06579317529792239,NORMAL,trust evidence=0.242; forwarding evidence=0.053
+18.0,2,15,15,0,0.0,0.7174852131017072,Trusted,0.6,0.6,0.13062869672457322,NORMAL,trust evidence=0.283; forwarding evidence=0.400
+18.0,3,11,11,0,0.0,0.7358068097051667,Trusted,0.0,1.0,0.16604829757370834,NORMAL,forwarding evidence=1.000; trust evidence=0.264
+18.0,4,37,37,0,0.0,0.7904254087068884,Trusted,0.959184,0.857143,0.0636180978232779,NORMAL,trust evidence=0.210; instability evidence=0.143
+18.0,5,28,28,0,0.0,0.7336556354869372,Trusted,0.913043,0.833333,0.08361514112826568,NORMAL,trust evidence=0.266; forwarding evidence=0.087
+18.0,6,7,7,0,0.0,0.7183892313465948,Trusted,0.9,0.571429,0.1018312421633513,NORMAL,trust evidence=0.282; instability evidence=0.429
+18.0,7,11,11,0,0.0,0.722535183016983,Trusted,0.0,1.0,0.16936620424575424,NORMAL,forwarding evidence=1.000; trust evidence=0.277
+18.0,8,33,33,0,0.0,0.7512112646770731,Trusted,0.931034,1.0,0.06909378383073173,NORMAL,trust evidence=0.249; forwarding evidence=0.069
+18.0,9,13,13,0,0.0,0.7295107799742355,Trusted,0.0,1.0,0.16762230500644112,NORMAL,forwarding evidence=1.000; trust evidence=0.270
+18.0,10,15,15,0,0.0,0.7122719008343135,Trusted,0.0,0.857143,0.17907487479142165,NORMAL,forwarding evidence=1.000; trust evidence=0.288
+19.0,1,26,26,0,0.0,0.7614163757008765,Trusted,0.954545,1.0,0.06419140607478088,NORMAL,trust evidence=0.239; forwarding evidence=0.045
+19.0,2,16,16,0,0.0,0.7205766422225863,Trusted,0.666667,1.0,0.10318913944435343,NORMAL,trust evidence=0.279; forwarding evidence=0.333
+19.0,3,12,12,0,0.0,0.734307888618952,Trusted,0.0,1.0,0.166423027845262,NORMAL,forwarding evidence=1.000; trust evidence=0.266
+19.0,4,40,40,0,0.0,0.7939506673128,Trusted,0.96,1.0,0.055512333171800016,NORMAL,trust evidence=0.206; forwarding evidence=0.040
+19.0,5,23,23,0,0.0,0.7336556354869372,Trusted,0.913043,1.0,0.07528179112826569,NORMAL,trust evidence=0.266; forwarding evidence=0.087
+19.0,6,9,9,0,0.0,0.7207307489830845,Trusted,0.9,1.0,0.07981731275422886,NORMAL,trust evidence=0.279; forwarding evidence=0.100
+19.0,7,12,12,0,0.0,0.7287683629408092,Trusted,0.0,1.0,0.16780790926479772,NORMAL,forwarding evidence=1.000; trust evidence=0.271
+19.0,8,33,33,0,0.0,0.7526781171794096,Trusted,0.933333,1.0,0.0684971707051476,NORMAL,trust evidence=0.247; forwarding evidence=0.067
+19.0,9,14,14,0,0.0,0.7318849246823883,Trusted,0.0,1.0,0.16702876882940293,NORMAL,forwarding evidence=1.000; trust evidence=0.268
+19.0,10,15,15,0,0.0,0.7127650839084406,Trusted,0.0,1.0,0.17180872902288985,NORMAL,forwarding evidence=1.000; trust evidence=0.287
